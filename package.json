@@ -32,7 +32,7 @@
         }],
         "grammars": [{
             "language": "marlb",
-            "scopeName": "source.marble",
+            "scopeName": "source.tpl",
             "path": "./syntaxes/marlb.tmLanguage.json"
         }]
     }

@@ -1,0 +1,35 @@
+{
+    "name": "marble",
+    "displayName": "Marlb Language Support",
+    "description": "Syntax Highlighter for Marlb Esolang",
+    "version": "0.0.1",
+    "license": "MIT",
+    "readme": "README.md",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "keywords": [
+        "marlb",
+        "marble",
+        "vscode",
+        "language",
+        "highlight",
+        "syntax"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "marlb",
+            "aliases": ["marlb", "marble"],
+            "extensions": [".marble"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "marlb",
+            "scopeName": "source.tpl",
+            "path": "./syntaxes/marlb.tmLanguage.json"
+        }]
+    }
+}

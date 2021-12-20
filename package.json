@@ -8,6 +8,10 @@
     "engines": {
         "vscode": "^1.63.0"
     },
+    "publisher": "bennett-nguyen",
+    "author": {
+        "name": "Bennett Nguyễn"
+    },
     "categories": [
         "Programming Languages"
     ],
@@ -28,7 +32,7 @@
         }],
         "grammars": [{
             "language": "marlb",
-            "scopeName": "source.tpl",
+            "scopeName": "source.marble",
             "path": "./syntaxes/marlb.tmLanguage.json"
         }]
     }

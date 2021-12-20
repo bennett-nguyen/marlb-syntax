@@ -1,6 +1,6 @@
 # Marlb Language Support
 
-Language support extension for marlb to provide syntax highlighting
+Language support extension for `marlb` to provide syntax highlighting
 
 ![image](https://raw.githubusercontent.com/bennett-nguyen/marlb-syntax/master/images/default.png)
 <br>

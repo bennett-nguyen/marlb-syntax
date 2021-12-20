@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "marlb",
 	"fileTypes": [".marble"],
-	"scopeName": "source.tpl",
+	"scopeName": "source.marble",
 	"patterns": [
 		{
 			"match": "\\+|-",

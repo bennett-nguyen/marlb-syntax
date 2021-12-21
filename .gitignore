@@ -1,2 +1,3 @@
 .vscodeignore
 source.marble
+*.vsix
